@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="entry.css">
+</head>
+<body>
+  <nav class="topnav">
+    <img class="left" height="70px" width="200px" src="hospital-logo-and-symbols-template-icons-vector.jpg" style="float:left; margin-right: 50px;" >
+    <img class="left" height="70px" width="100px" src="hospred.jpg" style="float:right; margin-right: 20px;" >
+    <div class="navigation">
+     <a href="code.html">Home</a>
+     <a class="active"href="entry.html">Patient Entry</a>
+     <a href="detail.html">Patient Details</a>
+     <a href="staff.html">Staff Information</a>
+     <a href="blood.html">Blood Bank</a>3
+     <a href="billing.html">Billing</a>
+     <a href="logy.html">Pathology</a>
+     
+    </div>
+ </nav>
+ <div >
+  <center><h1 style="background-color:rgb(0, 123, 255) ;">Patient's Entry</h1></center>
+<div class="container">
+    <div class="row">
+      <div class="col1">
+        <label>Patient's Full Name : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="Enter The Patient's Name*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Date Of Birth : </label>
+      </div>
+      <div class="col2">
+        <input type="date" placeholder="*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Weight : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="Enter The Patient's Weight*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Height : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="Enter The Patient's Height*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Gender : </label>
+      </div>
+      <div class="col2">
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="Other">Other
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Email : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="Enter The Email ID:">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Phone No. : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="10 Digit Phone Number*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Address : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="Enter Full Adress*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Occupation : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="Enter Your Occupation*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label>Treated By : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="Staff's Name*">
+      </div>
+  </div>
+  <div class="row">
+      <div class="col1">
+        <label for="country">Select Blood Group : </label>
+      </div>
+      <div class="col2">
+        <select id="country" name="country">
+          <option value="None">--Select Blood Group--</option>
+          <option value="A +VE">A +VE</option>
+          <option value="A -VE">A -VE</option>
+          <option value="usa">B +VE</option>
+          <option value="usa">B -VE</option>
+          <option value="usa">AB +VE</option>
+          <option value="usa">AB -VE</option>
+          <option value="usa">A1 +VE</option>
+          <option value="usa">A1 -VE</option>
+          <option value="usa">A2 +VE</option>
+          <option value="usa">A2 -VE</option>
+          <option value="usa">A1B +VE</option>
+          <option value="usa">A1B -VE</option>
+          <option value="usa">A2B +VE</option>
+          <option value="usa">A2B -VE</option>
+          <option value="usa">O +VE</option>
+          <option value="usa">O -VE</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col1">
+        <label>Remarks : </label>
+      </div>
+      <div class="col2">
+        <input type="text" placeholder="If Any">
+      </div>
+  </div>
+    <div>
+      <input onclick="alertdisplay()" type="submit" value="Submit">
+      <script>
+      function alertdisplay()
+      {
+          window.alert("Patient Record Submitted Successfully");
+          window.location.reload();
+      }
+    </script>
+    </div>
+</div>
+</div>
+<div class="footer">
+  <div class="footer-content">
+      <div class="footer-section-about">
+          <h class="footer1">About Us<hr/></h>
+          <p class="footer2">We are developing a healthcare system around you
+            We think that everyone should have easy access to excellent healthcare. Our aim is to make the procedure as simple as possible for our patients and to offer treatment no matterwhere they are — in person or at their convenience.</p>
+          <p class="footer2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt odio reprehenderit omnis beatae facere nostrum tenetur ab blanditiis dignissimos</p>
+      </div>
+      <div class="footer-section-contact">
+          <h class="footer1">Contact Us<hr/></h>
+          <p class="footer2">LOVELY PROFFESSIONAL UNIVERSITY,Jalandhar,Punjab</p>
+          <p class="footer2">Phone:+91-9865432689</p>
+          <p class="footer2">Email:info@medicalhospital.com</p>
+          <p class="footer2">Web:www.medicalhosp.com</p>
+      </div>
+      <div class="footer-section-service">
+          <h class="footer1">Our Services<hr/></h>
+          <p class="footer2">Health Checkup</p>
+          <p class="footer2">Doctor Appointment</p>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      &copy;codinghospital.com | Designed by Mausumi Ghadei/Prince Kumar/Uttkarsh Jha
+  </div>
+</div>
+</body>
+</html>

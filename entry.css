@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  
+
+
+
+.topnav {
+background-color: white;
+overflow: hidden;
+
+}
+
+
+.topnav a {
+
+color:black;
+text-align: center;
+padding:20px 20px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+
+}
+
+
+.topnav a:hover {
+background-color:rgb(0, 123, 255);
+color:white;
+}
+
+
+.topnav a.active {
+background-color:rgb(0, 123, 255);
+color: white;
+}
+div.header{
+height: 150px;
+}
+
+.navigation{
+margin-top: 25px;
+
+}
+
+
+
+
+
+input[type=text],select,textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  padding: 20px;
+  margin-left:200px;
+  margin-right:200px;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 700px;
+ 
+}
+
+.col1 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  font-size: larger;
+}
+
+.col2 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* footer */
+.footer{
+  background:rgb(0, 123, 255) ;
+  color: #fff;
+  height: 400px;
+  margin-top: 1%;
+}
+.footer .footer-bottom{
+  height: 50px;
+  width:100%;
+  text-align: center;
+  
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+.footer-content{
+  border:1px solid black;
+  height:350px;
+}
+.footer-section-about { 
+
+  float:left;  
+  width:25%;
+  height:350px; 
+  
+} 
+
+.footer-section-contact{  
+  float:left;  
+  width:50%; 
+  height:350px;
+ } 
+ .footer-section-service{ 
+  float:right;  
+  width:25%; 
+  height:350px; 
+ } 
+.footer1{
+  color:#fff;
+  font-size:larger;
+  font-weight: bolder;
+  margin-left :100px; ;
+}
+.footer2{
+  color:#fff;
+  margin-left :100px; 
+  padding-top: 10px;
+}

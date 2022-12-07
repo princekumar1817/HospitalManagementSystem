@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="billing.css">
+    <script>
+      function alertdisplay()
+      {
+          window.alert("Payment Done Successfully.");
+          window.location.reload();
+      }
+    </script>
+</head>
+<body>
+  
+  <nav class="topnav">
+    <img class="left" height="70px" width="200px" src="hospital-logo-and-symbols-template-icons-vector.jpg" style="float:left; margin-right: 50px;" >
+    <img class="left" height="70px" width="100px" src="hospred.jpg" style="float:right; margin-right: 20px;" >
+    <div class="navigation">
+     <a href="code.html">Home</a>
+     <a href="entry.html">Patient Entry</a>
+     <a href="detail.html">Patient Details</a>
+     <a href="staff.html">Staff Information</a>
+     <a href="blood.html">Blood Bank</a>
+     <a class="active" href="billing.html">Billing</a>
+     <a href="logy.html">Pathology</a>
+     
+    </div>
+ </nav>
+    <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form >
+            
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Enter Your Full Name">
+                  <label for="email"> Email</label>
+                  <input type="text" id="email" name="email" placeholder="mausumi@example.com">
+                  <label for="adr"> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="Enter Your Address">
+                  <label for="city"> City</label>
+                  <input type="text" id="city" name="city" placeholder="Enter Your City">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="Enter Your State">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Pin Code</label>
+                      <input type="text" id="zip" name="zip" placeholder=" Enter Your Pin Code">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Payment Methods</label>
+                  <div class="icon-container">
+                    <i class="Credit/Debit/ATM Card" style="color:navy;">&#128179;Credit/Debit Cards/ATM Card</i>
+                    <i class="Cash" style="color:#ead21f;">&#128176;Cash</i>
+                    <i class="UPI" style="color:brown;"><img src="upi-icon.png" width="50px" height="30px"style="">UPI</i>
+                    <i class="Net Banking" style="color:rgb(8, 86, 170);"><img src="phonepay.png" width="50px" height="30px"style="padding-top:10px;">Net Banking</i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="Enter Your Name">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <input type="submit" value="Make Payment" class="btn" onclick=" alertdisplay()">
+            </form>
+          </div>
+        </div>
+          
+          
+
+      </div>
+      <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section-about">
+                <h class="footer1">About Us<hr/></h>
+                <p class="footer2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iste ut officiis dolor dolorem laboriosam voluptas accusantium mollitia molestias molestiae vitae provident dicta. Libero reiciendis sit quae incidunt culpa perferendis.</p>
+                <p class="footer2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt odio reprehenderit omnis beatae facere nostrum tenetur ab blanditiis dignissimos</p>
+            </div>
+            <div class="footer-section-contact">
+                <h class="footer1">Contact Us<hr/></h>
+                <p class="footer2">LOVELY PROFFESSIONAL UNIVERSITY,Jalandhar,Punjab</p>
+                <p class="footer2">Phone:+91-9865432689</p>
+                <p class="footer2">Email:info@medicalhospital.com</p>
+                <p class="footer2">Web:www.medicalhosp.com</p>
+            </div>
+            <div class="footer-section-service">
+                <h class="footer1">Our Services<hr/></h>
+                <p class="footer2">Health Checkup</p>
+                <p class="footer2">Doctor Appointment</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy;codinghospital.com | Designed by Mausumi Ghadei/Prince Kumar/Uttkarsh Jha
+        </div>
+    </div>
+    
+</body>
+</html>
+
